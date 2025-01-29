@@ -1,0 +1,21 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Escreva um número qualquer: ");
+			float num1 = float.Parse(Console.ReadLine());
+			Console.WriteLine("Escreva outro número qualquer: ");
+			float num2 = float.Parse(Console.ReadLine());
+			
+			float multiplicacao = num1 * num2;
+			Console.WriteLine(" o Resultado da multiplicação desses dois números é: " + multiplicacao);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
