@@ -1,0 +1,20 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um número qualquer: ");
+			double num1 = double.Parse(Console.ReadLine());
+			
+			double absoluto = Math.Abs(num1);
+			Console.WriteLine("O número absoluto será: " + absoluto);
+			
+			Console.WriteLine("");
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
