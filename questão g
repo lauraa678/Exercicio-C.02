@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um número qualquer: ");
+			float num1 = float.Parse(Console.ReadLine());
+			Console.WriteLine("Digite outro número qualquer: ");
+			float num2 = float.Parse(Console.ReadLine());
+			
+			float subtracao = num1 - num2;
+			Console.WriteLine("O resultado da subtração desses números é: " + subtracao);
+			
+			Console.WriteLine("");
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
