@@ -1,0 +1,20 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um número qualquer: ");
+			float num1 = float.Parse(Console.ReadLine());
+			Console.WriteLine("Digite outro número para ser somado a esse: ");
+			float num2 = float.Parse(Console.ReadLine());
+			
+			float soma = num1 + num2;
+			Console.WriteLine("O resultado da soma dos dois números é: " + soma);
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
